@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_register"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="271dp"
+        android:layout_height="392dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/orange_round_button"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Sign in"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/white_round_button"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Register"
+        android:textColor="@color/orange"
+        app:backgroundTint="@null" />
+
+    <View
+        android:id="@+id/anim_view"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_light"/>
+</LinearLayout>

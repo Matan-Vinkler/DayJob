@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskSelectedActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:background="@drawable/great2"/>
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="153dp"
+        android:background="@drawable/vi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"/>
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="68dp"
+        android:background="@drawable/vi2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="355dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="465dp"
+        android:text="Great!"
+        android:textSize="48sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:lineHeight="72dp"
+        android:letterSpacing="0.03"/>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:text="You're about to help Sharon!"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"
+        android:lineHeight="72dp"
+        android:letterSpacing="0.03"/>
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/submit_btn"
+        android:text="Contact Sharon"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:text="Find More Tasks"
+        android:textColor="#808080"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"/>
+
+
+</RelativeLayout>

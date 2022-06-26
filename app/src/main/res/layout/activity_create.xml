@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity">
+
+    <ImageView
+        android:layout_width="434dp"
+        android:layout_height="228dp"
+        android:background="@drawable/farmer"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ellipse2"
+        android:drawableLeft="@drawable/ic_back"
+        android:paddingLeft="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:text="Create New Task"
+        android:textSize="36sp"
+        android:lineHeight="54sp"
+        android:textStyle="bold"
+        android:textColor="#FBA770"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="260dp">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Task's Name"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/edt_date"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Date"
+            android:inputType="date"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_calander"
+            android:drawablePadding="7dp"/>
+
+        <EditText
+            android:id="@+id/edt_time"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Time"
+            android:clickable="true"
+            android:focusable="true"
+            android:editable="false"
+            android:inputType="time"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_time2"
+            android:drawablePadding="7dp"/>
+
+        <EditText
+            android:id="@+id/edt_location"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Location"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/edt_helpers"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Num. of People"
+            android:inputType="number"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/edt_salary"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/create_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Salary ($)"
+            android:inputType="number"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/edt_description"
+            android:layout_width="309dp"
+            android:layout_height="47dp"
+            android:background="@drawable/description_edit"
+            android:layout_marginBottom="10dp"
+            android:hint="Text about task..."
+            android:inputType="textLongMessage"
+            android:textColorHint="#808080"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="316dp"
+            android:layout_height="47dp"
+            android:background="@drawable/submit_btn"
+            android:text="Add Task"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins"
+            android:textFontWeight="600"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

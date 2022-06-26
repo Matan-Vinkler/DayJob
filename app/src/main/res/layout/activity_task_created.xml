@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskCreatedActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:background="@drawable/greate1"/>
+    
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="153dp"
+        android:background="@drawable/vi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="68dp"
+        android:background="@drawable/vi2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="455dp"
+        android:text="Great!"
+        android:textSize="48sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:lineHeight="72dp"
+        android:letterSpacing="0.03"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"
+        android:text="You added a new task!"
+        android:textSize="29sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"
+        android:lineHeight="72dp"
+        android:letterSpacing="0.03"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/submit_btn"
+        android:text="Explore Tasks"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"/>
+
+</RelativeLayout>

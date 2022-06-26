@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="#143546">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ellipse2"
+        android:drawableLeft="@drawable/ic_back"
+        android:paddingLeft="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="271dp"
+        android:layout_height="392dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis justo vel vehicula auctor. Vestibulum cursus in sapien in imperdiet. Pellentesque sodales volutpat ullamcorper. In non mattis odio. Praesent ut mi ut leo pretium pharetra. Proin cursus nec felis consectetur rutrum. Nullam ullamcorper ut ex quis laoreet. Vivamus id dolor venenatis, varius est non, tempus ex. Praesent suscipit vulputate venenatis."
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>

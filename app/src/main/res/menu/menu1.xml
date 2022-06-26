@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_about" android:title="About"/>
+    <item android:id="@+id/menu_signout" android:title="Sign Out" />
+    <item android:id="@+id/menu_create" android:title="Add Task" />
+    <item android:id="@+id/menu_mytask" android:title="My Tasks" />
+    <item android:id="@+id/menu_regtask" android:title="Registered Tasks" />
+</menu>

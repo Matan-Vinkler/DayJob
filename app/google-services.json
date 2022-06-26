@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548841558504",
+    "project_id": "dayjob-4359d",
+    "storage_bucket": "dayjob-4359d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548841558504:android:68d7a52a9796122e5c145d",
+        "android_client_info": {
+          "package_name": "com.company.dayjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548841558504-1v7iko4mv08snufm684dv7op6ho3oss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAriBAL3KjtfQzXYiYpRK4vmINiL9oGK5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548841558504-1v7iko4mv08snufm684dv7op6ho3oss9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/accept_btn.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/card_background.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/circle.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/create_edit.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/decline_btn.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/description_edit.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ellipse.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ellipse2.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/email_box.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_account.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_add.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_back.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_calander.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_email.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_login_with_.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_loginwithbtn.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_menu.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/ic_time.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/login_with.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/orange_round_button.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/search_edittext.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/submit_btn.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/welcome_ami.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/drawable/white_round_button.xml" value="0.263" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_about.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_create.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_login_register.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_my_tasks.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_registered_tasks.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_task.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_task_created.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/activity_task_selected.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/drawer_header.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/layout/fragment_task.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/DayJob/app/src/main/res/menu/menu1.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
